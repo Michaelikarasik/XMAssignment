@@ -1,0 +1,14 @@
+{
+  "name": "XM Cyber Assignment",
+  "description": "XMCYBER",
+  "version": "1.0",
+  "manifest_version": 3,
+  
+  "content_scripts": 
+    [
+        {
+            "matches": ["https://*.aws.amazon.com/*"],
+            "js": ["background.js"]
+        }
+    ]
+}
